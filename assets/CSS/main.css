@@ -2,8 +2,8 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-td{
-    border: solid 1px;
+a{
+    text-decoration: solid;
 }
 
 .container{
@@ -21,3 +21,15 @@ td{
     background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
     color: black;
 }
+
+.tabla{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.tabla td, .tabla th{
+    padding: 1em;
+    text-align: left;
+}
+
+.tabla tr:nth-child(even){ background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);}
