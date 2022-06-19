@@ -6,6 +6,10 @@ a{
     text-decoration: solid;
 }
 
+a:visited{
+    color: purple;
+}
+
 div.avatar {
     /* cambia estos dos valores para definir el tamaño de tu círculo */
     height: 90px;
@@ -32,6 +36,7 @@ div.avatar {
     color: black;
     box-shadow: 0 3px 6px rgba(0,0,0,0), 0 3px 6px rgba(0, 0, 0, 24);
     border-radius: 4px;
+    padding: 2em;
 }
 
 .title-item{
@@ -39,6 +44,7 @@ div.avatar {
     border-width: 2px;
     border-color: #b721ff;
     padding-bottom: 1em;
+    text-align: center;
 }
 
 .tabla{
